@@ -2,7 +2,9 @@ body{
     background-color:#FAF8F1 ;
     margin-left: 50px;
     margin-right: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 hr{
@@ -20,6 +22,7 @@ hr{
 h1{
     color:#E5BA73 ;
     font-weight: bold;
+    font-size: 35px;
 }
 h2{
    color: #E5BA73 ;
@@ -47,4 +50,26 @@ img{
     width: 550px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.bottom{
+    margin-bottom: 0%;
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+}
+
+.contact{
+    width: 420px;
+    height: 100%;
+    margin: auto;
+    background-color: #C58940;
+}
+
+.con{
+    width: 30px;
+    height: 30px;
+    margin-left: 81px;
+    margin-top: 5px;
+    position: relative;
 }
