@@ -2,6 +2,7 @@ body{
     background-color:#FAF8F1 ;
     margin-left: 50px;
     margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 hr{
@@ -24,11 +25,6 @@ h2{
    color: #E5BA73 ;
    
 
-}
-
-body{
-
-    font-family: "Arial", Helvetica, sans-serif;
 }
 
 .tableheading{
