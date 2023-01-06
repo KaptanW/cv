@@ -1,0 +1,54 @@
+body{
+    background-color:#FAF8F1 ;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+hr{
+    
+    border-style:solid;
+    height: 3px;
+    width: 30%;
+    border-top-style: dotted;
+    border-bottom-style: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(247, 213, 154);
+}
+
+h1{
+    color:#E5BA73 ;
+    font-weight: bold;
+}
+h2{
+   color: #E5BA73 ;
+   
+
+}
+
+body{
+
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+.tableheading{
+    font-weight: 400;
+    color: #C58940;
+    text-decoration: underline;
+}
+
+img{
+    border-radius: 15%;
+}
+
+.skillsheading{
+    font-weight: bold;
+    color: #C58940;
+    text-decoration: underline;
+}
+
+.giris{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
