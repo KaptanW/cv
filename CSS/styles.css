@@ -1,17 +1,15 @@
 body{
     background-color:#FAF8F1 ;
-    margin-left: 50px;
-    margin-right: 20px;
     font-family: Verdana, Tahoma, sans-serif;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin: 0;
+    
 }
 
 hr{
     
     border-style:solid;
     height: 3px;
-    width: 30%;
+
     border-top-style: dotted;
     border-bottom-style: none;
     border-left: none;
@@ -21,8 +19,9 @@ hr{
 
 h1{
     color:#E5BA73 ;
-    font-weight: bold;
     font-size: 35px;
+    
+
 }
 h2{
    color: #E5BA73 ;
@@ -40,6 +39,27 @@ img{
     border-radius: 15%;
 }
 
+.workexp{
+    width: 50%;
+    margin: 100px auto 180px auto;
+    text-align: center;
+}
+
+.okullar{
+    width: 50%;
+  margin: 100px auto 180px auto;
+  text-align: center;
+}
+
+
+
+
+.skills{
+    width: 50%;
+  margin: 100px auto 180px auto;
+  text-align: left;
+}
+
 .skillsheading{
     font-weight: bold;
     color: #C58940;
@@ -47,29 +67,43 @@ img{
 }
 
 .giris{
-    width: 550px;
+    width: 100%;
     margin-left: auto;
-    margin-right: auto;
+    color: #E5BA73;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 20 px;
+    text-align: center;
 }
 
 .bottom{
-    margin-bottom: 0%;
-    height: 40px;
-    width: 100%;
-    margin: 0px;
-}
-
-.contact{
-    width: 420px;
-    height: 100%;
-    margin: auto;
+    padding: 20px 0px 50px;
     background-color: #C58940;
+    text-align: center;
 }
 
-.ile{
+.con{
     width: 30px;
     height: 30px;
-    margin-left: 81px;
-    margin-top: 5px;
-    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon{
+    width: 27%;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+p{
+    line-height: 2;
+}
+
+table{
+    margin: auto;
+}
+
+h2{
+    text-align: center;
 }
