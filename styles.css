@@ -7,14 +7,11 @@ body{
 
 hr{
     
-    border-style:solid;
-    height: 3px;
-
-    border-top-style: dotted;
-    border-bottom-style: none;
-    border-left: none;
-    border-right: none;
-    border-color: rgb(247, 213, 154);
+    border: dotted #C58940 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    
 }
 
 h1{
