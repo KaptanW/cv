@@ -22,6 +22,7 @@ h1{
 }
 h2{
    color: #E5BA73 ;
+   text-align: center;
    
 
 }
@@ -48,9 +49,6 @@ img{
   text-align: center;
 }
 
-
-
-
 .skills{
     width: 50%;
   margin: 100px auto 180px auto;
@@ -71,6 +69,7 @@ img{
     font-weight: bold;
     font-size: 20 px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .bottom{
@@ -101,6 +100,38 @@ table{
     margin: auto;
 }
 
-h2{
+.btn {
+    background: #c58940;
+    background-image: -webkit-linear-gradient(top, #c58940, #f2c899);
+    background-image: -moz-linear-gradient(top, #c58940, #f2c899);
+    background-image: -ms-linear-gradient(top, #c58940, #f2c899);
+    background-image: -o-linear-gradient(top, #c58940, #f2c899);
+    background-image: linear-gradient(to bottom, #c58940, #f2c899);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border: solid #1c2124 1px;
+    text-decoration: none;
+    margin-left: auto;
+  }
+  
+  .btn:hover {
+    background: #E5BA73;
+    background-image: -webkit-linear-gradient(top, #E5BA73, #E5BA73);
+    background-image: -moz-linear-gradient(top, #E5BA73, #E5BA73);
+    background-image: -ms-linear-gradient(top, #E5BA73, #E5BA73);
+    background-image: -o-linear-gradient(top, #E5BA73, #E5BA73);
+    background-image: linear-gradient(to bottom, #E5BA73, #E5BA73);
+    text-decoration: none;
+  }
+  
+  .mail{
+    margin: auto 20 auto 20;
+    padding-bottom: 20px;
     text-align: center;
-}
+  }
