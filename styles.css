@@ -1,0 +1,109 @@
+body{
+    background-color:#FAF8F1 ;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    
+}
+
+hr{
+    
+    border-style:solid;
+    height: 3px;
+
+    border-top-style: dotted;
+    border-bottom-style: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(247, 213, 154);
+}
+
+h1{
+    color:#E5BA73 ;
+    font-size: 35px;
+    
+
+}
+h2{
+   color: #E5BA73 ;
+   
+
+}
+
+.tableheading{
+    font-weight: 400;
+    color: #C58940;
+    text-decoration: underline;
+}
+
+img{
+    border-radius: 15%;
+}
+
+.workexp{
+    width: 50%;
+    margin: 100px auto 180px auto;
+    text-align: center;
+}
+
+.okullar{
+    width: 50%;
+  margin: 100px auto 180px auto;
+  text-align: center;
+}
+
+
+
+
+.skills{
+    width: 50%;
+  margin: 100px auto 180px auto;
+  text-align: left;
+}
+
+.skillsheading{
+    font-weight: bold;
+    color: #C58940;
+    text-decoration: underline;
+}
+
+.giris{
+    width: 100%;
+    margin-left: auto;
+    color: #E5BA73;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 20 px;
+    text-align: center;
+}
+
+.bottom{
+    padding: 20px 0px 50px;
+    background-color: #C58940;
+    text-align: center;
+}
+
+.con{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon{
+    width: 27%;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+p{
+    line-height: 2;
+}
+
+table{
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
