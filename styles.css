@@ -2,6 +2,8 @@ body{
     background-color:#FAF8F1 ;
     font-family: Verdana, Tahoma, sans-serif;
     margin: 0;
+    font-size: 100%;
+    
     
 }
 
@@ -10,8 +12,8 @@ hr{
     border: dotted #C58940 6px;
     border-bottom: none;
     width: 4%;
-    margin: 100px auto;
-    
+    margin-left: 100%;
+    margin: 10% auto 10% auto;
 }
 
 h1{
@@ -23,7 +25,7 @@ h1{
 h2{
    color: #E5BA73 ;
    text-align: center;
-   
+   font-size: 2em;
 
 }
 
@@ -38,27 +40,46 @@ img{
 }
 
 .workexp{
-    width: 50%;
-    margin: 100px auto 180px auto;
+    width: 80%;
+    height: 20%;
+    margin: 10% auto 10% auto;
     text-align: center;
+    font-size: 16px;
+  font-size: 1vw;
+  
 }
 
 .okullar{
-    width: 50%;
-  margin: 100px auto 180px auto;
+    width: 80%;
+    height: 20%;
+    margin: 10% auto 10% auto;
   text-align: center;
+  font-size: 16px;
+  font-size: 1.2vw;
+  padding: 0%;
+ 
+}
+
+.okul{
+    width: 80%;
+    margin-left: 30%;
 }
 
 .skills{
-    width: 50%;
-  margin: 100px auto 180px auto;
-  text-align: left;
+    width: 80%;
+    height: 20%;
+  margin: 10% auto 10% auto;
+  text-align: center;
+  font-size: 16px;
+  font-size: 1vw;
 }
 
 .skillsheading{
     font-weight: bold;
     color: #C58940;
     text-decoration: underline;
+    font-size: 16px;
+  font-size: 1vw;
 }
 
 .giris{
@@ -73,6 +94,7 @@ img{
 }
 
 .bottom{
+    margin-top: 5%;
     padding: 20px 0px 50px;
     background-color: #C58940;
     text-align: center;
@@ -86,10 +108,10 @@ img{
 }
 
 .icon{
-    width: 27%;
+    width: 20%;
     float: left;
-    margin-right: 50px;
-    margin-left: 50px;
+    
+    
     
 }
 p{
@@ -98,6 +120,9 @@ p{
 
 table{
     margin: auto;
+    font-size: 1.2vw;
+    width: 80%;
+    
 }
 
 .btn {
@@ -135,3 +160,12 @@ table{
     padding-bottom: 20px;
     text-align: center;
   }
+
+  td{
+    font-size: 1em;
+  }
+
+  .tablosol{
+    text-align: left;
+  }
+  
