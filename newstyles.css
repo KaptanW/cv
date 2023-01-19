@@ -1,0 +1,149 @@
+#navigationn
+{
+    background-color: #FBF1D3;
+    height: 10vh;
+   
+}
+
+.nav-link
+{
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:hover
+{
+    color: rgb(67, 67, 67);
+}
+
+.navbar-brand
+{
+    color: rgb(254, 254, 254);
+}
+
+.navbar-brand:hover
+{
+    color: rgb(80, 80, 80);
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-toggler
+{
+    border-color: rgb(67, 67, 67);
+    background-color: white;
+    color: rgb(137, 137, 137);
+}
+
+.container-fluid
+{
+    padding: 1% 5%;
+}
+
+.personalinf
+{
+    text-align: center;
+    padding: 5% 15%;
+    background-color: #393E46;
+    height: 90vh;
+    background-image:url(19604.webp);
+    background-size:cover;
+}
+
+h1
+{
+    color: white;
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.info 
+{
+    margin: auto;
+    padding-top: 10%;
+}
+.pp
+{
+    border-radius: 20%;
+    width: 50%;
+}
+
+.resume
+{
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding-top: 10%;
+}
+
+.education
+{
+    text-align: center;
+    padding: 5% 15%;
+    background-color: #aeaeae;
+}
+
+.icon
+{
+ width: 50%;
+}
+
+.list-group-item
+{
+    background-color: #aeaeae;
+    border-color: #393E46;
+    text-align: left;
+}
+
+.skills
+{
+    text-align: center;
+    padding: 5% 15%;
+
+}
+
+h2
+{
+    text-align: left;
+    padding-top: 3%;
+}
+
+.CSharp
+{
+    background-color: rgb(125, 70, 125);
+}
+
+.HTMLBar
+{
+    background-color: orange;
+}
+
+.mail
+{
+    text-align: right;
+}
+
+.contract
+{
+    color: white;
+    text-align: center;
+    padding: 1% 15%;
+    background-color: #393E46;
+    width: 100%;
+    height: 100px;
+}
+
+.contactor
+{
+    width: 10%;
+    
+   
+}
+
+.link-light
+{
+    text-decoration:none;
+    padding: 0% 2% 0% 2%;
+}

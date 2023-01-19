@@ -2,19 +2,18 @@ body{
     background-color:#FAF8F1 ;
     font-family: Verdana, Tahoma, sans-serif;
     margin: 0;
+    font-size: 100%;
+    
     
 }
 
 hr{
     
-    border-style:solid;
-    height: 3px;
-
-    border-top-style: dotted;
-    border-bottom-style: none;
-    border-left: none;
-    border-right: none;
-    border-color: rgb(247, 213, 154);
+    border: dotted #C58940 6px;
+    border-bottom: none;
+    width: 4%;
+    margin-left: 100%;
+    margin: 10% auto 10% auto;
 }
 
 h1{
@@ -25,7 +24,8 @@ h1{
 }
 h2{
    color: #E5BA73 ;
-   
+   text-align: center;
+   font-size: 2em;
 
 }
 
@@ -40,30 +40,46 @@ img{
 }
 
 .workexp{
-    width: 50%;
-    margin: 100px auto 180px auto;
+    width: 80%;
+    height: 20%;
+    margin: 10% auto 10% auto;
     text-align: center;
+    font-size: 16px;
+  font-size: 1vw;
+  
 }
 
 .okullar{
-    width: 50%;
-  margin: 100px auto 180px auto;
+    width: 80%;
+    height: 20%;
+    margin: 10% auto 10% auto;
   text-align: center;
+  font-size: 16px;
+  font-size: 1.2vw;
+  padding: 0%;
+ 
 }
 
-
-
+.okul{
+    width: 80%;
+    margin-left: 30%;
+}
 
 .skills{
-    width: 50%;
-  margin: 100px auto 180px auto;
-  text-align: left;
+    width: 80%;
+    height: 20%;
+  margin: 10% auto 10% auto;
+  text-align: center;
+  font-size: 16px;
+  font-size: 1vw;
 }
 
 .skillsheading{
     font-weight: bold;
     color: #C58940;
     text-decoration: underline;
+    font-size: 16px;
+  font-size: 1vw;
 }
 
 .giris{
@@ -74,9 +90,11 @@ img{
     font-weight: bold;
     font-size: 20 px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .bottom{
+    margin-top: 5%;
     padding: 20px 0px 50px;
     background-color: #C58940;
     text-align: center;
@@ -90,10 +108,10 @@ img{
 }
 
 .icon{
-    width: 27%;
+    width: 20%;
     float: left;
-    margin-right: 50px;
-    margin-left: 50px;
+    
+    
     
 }
 p{
@@ -102,8 +120,57 @@ p{
 
 table{
     margin: auto;
+    font-size: 1.2vw;
+    width: 80%;
+    
 }
 
-h2{
+.btn {
+    background: #c58940;
+    background-image: -webkit-linear-gradient(top, #c58940, #f2c899);
+    background-image: -moz-linear-gradient(top, #c58940, #f2c899);
+    background-image: -ms-linear-gradient(top, #c58940, #f2c899);
+    background-image: -o-linear-gradient(top, #c58940, #f2c899);
+    background-image: linear-gradient(to bottom, #c58940, #f2c899);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border: solid #1c2124 1px;
+    text-decoration: none;
+    margin-left: auto;
+  }
+  
+  .btn:hover {
+    background: #E5BA73;
+    background-image: -webkit-linear-gradient(top, #E5BA73, #E5BA73);
+    background-image: -moz-linear-gradient(top, #E5BA73, #E5BA73);
+    background-image: -ms-linear-gradient(top, #E5BA73, #E5BA73);
+    background-image: -o-linear-gradient(top, #E5BA73, #E5BA73);
+    background-image: linear-gradient(to bottom, #E5BA73, #E5BA73);
+    text-decoration: none;
+  }
+  
+  .mail{
+    margin: auto 20 auto 20;
+    padding-bottom: 20px;
     text-align: center;
-}
+  }
+
+  td{
+    font-size: 1em;
+  }
+
+  .tablosol{
+    text-align: left;
+  }
+
+  i{
+    color: white;
+    width: 50px;
+  }
+  
