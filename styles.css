@@ -1,170 +1,149 @@
-body{
-    background-color:#FAF8F1 ;
-    font-family: Verdana, Tahoma, sans-serif;
-    margin: 0;
-    font-size: 100%;
-    
-    
+#navigationn
+{
+    background-color: #FBF1D3;
+    height: 10vh;
+   
 }
 
-hr{
-    border: dotted #C58940 6px;
-    border-bottom: none;
-    width: 4%;
-    margin-left: 100%;
-    margin: 10% auto 10% auto;
+.nav-link
+{
+    color: rgb(255, 255, 255);
 }
 
-h1{
-    color:#E5BA73 ;
-    font-size: 35px;
-    
-
-}
-h2{
-   color: #E5BA73 ;
-   text-align: center;
-   font-size: 2em;
-
+.nav-link:hover
+{
+    color: rgb(67, 67, 67);
 }
 
-.tableheading{
-    font-weight: 400;
-    color: #C58940;
-    text-decoration: underline;
+.navbar-brand
+{
+    color: rgb(254, 254, 254);
 }
 
-img{
-    border-radius: 15%;
+.navbar-brand:hover
+{
+    color: rgb(80, 80, 80);
 }
 
-.workexp{
-    width: 80%;
-    height: 20%;
-    margin: 10% auto 10% auto;
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-toggler
+{
+    border-color: rgb(67, 67, 67);
+    background-color: white;
+    color: rgb(137, 137, 137);
+}
+
+.container-fluid
+{
+    padding: 1% 5%;
+}
+
+.personalinf
+{
     text-align: center;
-    font-size: 16px;
-  font-size: 1vw;
-  
+    padding: 5% 15%;
+    background-color: #393E46;
+    height: 90vh;
+    background-image:url(19604.webp);
+    background-size:cover;
 }
 
-.okullar{
-    width: 80%;
-    height: 20%;
-    margin: 10% auto 10% auto;
-  text-align: center;
-  font-size: 16px;
-  font-size: 1.2vw;
-  padding: 0%;
- 
-}
-
-.okul{
-    width: 80%;
-    margin-left: 30%;
-}
-
-.skills{
-    width: 80%;
-    height: 20%;
-  margin: 10% auto 10% auto;
-  text-align: center;
-  font-size: 16px;
-  font-size: 1vw;
-}
-
-.skillsheading{
+h1
+{
+    color: white;
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: #C58940;
-    text-decoration: underline;
-    font-size: 16px;
-  font-size: 1vw;
 }
 
-.giris{
-    width: 100%;
-    margin-left: auto;
-    color: #E5BA73;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bold;
-    font-size: 20 px;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.bottom{
-    margin-top: 5%;
-    padding: 20px 0px 50px;
-    background-color: #C58940;
-    text-align: center;
-}
-
-.con{
-    width: 30px;
-    height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.icon{
-    width: 20%;
-    float: left;
-    
-    
-    
-}
-p{
-    line-height: 2;
-}
-
-table{
+.info 
+{
     margin: auto;
-    font-size: 1.2vw;
-    width: 80%;
-    
+    padding-top: 10%;
+}
+.pp
+{
+    border-radius: 20%;
+    width: 50%;
 }
 
-.btn {
-    background: #c58940;
-    background-image: -webkit-linear-gradient(top, #c58940, #f2c899);
-    background-image: -moz-linear-gradient(top, #c58940, #f2c899);
-    background-image: -ms-linear-gradient(top, #c58940, #f2c899);
-    background-image: -o-linear-gradient(top, #c58940, #f2c899);
-    background-image: linear-gradient(to bottom, #c58940, #f2c899);
-    -webkit-border-radius: 20;
-    -moz-border-radius: 20;
-    border-radius: 20px;
-    text-shadow: 1px 1px 3px #666666;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 5px 15px 5px 15px;
-    border: solid #1c2124 1px;
-    text-decoration: none;
-    margin-left: auto;
-  }
-  
-  .btn:hover {
-    background: #E5BA73;
-    background-image: -webkit-linear-gradient(top, #E5BA73, #E5BA73);
-    background-image: -moz-linear-gradient(top, #E5BA73, #E5BA73);
-    background-image: -ms-linear-gradient(top, #E5BA73, #E5BA73);
-    background-image: -o-linear-gradient(top, #E5BA73, #E5BA73);
-    background-image: linear-gradient(to bottom, #E5BA73, #E5BA73);
-    text-decoration: none;
-  }
-  
-  .mail{
-    margin: auto 20 auto 20;
-    padding-bottom: 20px;
+.resume
+{
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding-top: 10%;
+}
+
+.education
+{
     text-align: center;
-  }
+    padding: 5% 15%;
+    background-color: #aeaeae;
+}
 
-  td{
-    font-size: 1em;
-  }
+.icon
+{
+ width: 50%;
+}
 
-  .tablosol{
+.list-group-item
+{
+    background-color: #aeaeae;
+    border-color: #393E46;
     text-align: left;
-  }
-  
+}
+
+.skills
+{
+    text-align: center;
+    padding: 5% 15%;
+
+}
+
+h2
+{
+    text-align: left;
+    padding-top: 3%;
+}
+
+.CSharp
+{
+    background-color: rgb(125, 70, 125);
+}
+
+.HTMLBar
+{
+    background-color: orange;
+}
+
+.mail
+{
+    text-align: right;
+}
+
+.contract
+{
+    color: white;
+    text-align: center;
+    padding: 1% 15%;
+    background-color: #393E46;
+    width: 100%;
+    height: 100px;
+}
+
+.contactor
+{
+    width: 10%;
+    
+   
+}
+
+.link-light
+{
+    text-decoration:none;
+    padding: 0% 2% 0% 2%;
+}
